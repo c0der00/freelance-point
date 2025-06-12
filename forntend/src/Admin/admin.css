@@ -1,0 +1,571 @@
+*{
+  font-family: "gilroyBold";
+}
+
+.admin-login-image_part1{
+  /* background-image: url(about_image_part1.jpg); */
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin-login-image_part1-text{
+  color:white;
+  font-weight: bolder;
+  padding: 40px;
+  box-shadow: 0px 0px 20px white;
+  background-color: rgba(208, 208, 206,0.8);
+  border-radius: 5px;
+}
+.admin-login-text{
+  margin-top: -10px;
+}
+.admin-login-email-input , .admin-login-password-input{
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.admin-login-button{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.admin-login-button a{
+  text-decoration: none;
+  color: black;
+}
+
+.btn-cl{
+  background-color: white;
+  border: solid 0.2px black;
+}
+
+/* admin-header part */
+
+.admin-header{
+  display: flex;
+  justify-content: flex-end;
+  /* box-shadow: 0px 0px 5px black; */
+}
+.admin-dropdown-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.admin-dropdown-profile-image{
+  width: 35px;
+  height: 35px;
+  box-shadow: 0px 0px 4px black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.admin-dropdown-profile-image img{
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 50%;
+}
+.admin-dropdown-profile-name h6{
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+}
+.admin-dropdown-profile-name span{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+
+/* admin-dashboard part */
+
+.admin-dashboard{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "gilroyBold";
+  margin: 20px 20px;
+  flex-wrap: wrap;
+  
+}
+.admin-dashboard-part1{
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin: 10px;
+}
+.admin-dashboard-part1-icon{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: blue;
+}
+
+
+/* admin-profile part */
+
+.Admin_Profile{
+  margin: 20px;
+}
+.Admin_Profile_photo_part{
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px black;
+}
+.Admin_Profile_photo{
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  box-shadow: 0px 0px 4px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.Admin_Profile_photo img{
+  width: 65px;
+  height: 65px;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 50%;
+
+}
+.Admin_Profile_personaldetails_part{
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.Admin_Profile_Changepassword_part{
+  border-radius: 10px;
+}
+#Admin_Profile_personaldetails_part_active{
+  background-color: orange;
+  border-radius: 10px;
+}
+#Admin_Profile_changepassword_part_active{
+  background-color: orange;
+  border-radius: 10px;
+}
+.admin_profile_profiledetails_changepart{
+  padding: 10px;
+  margin: 30px 0px;
+  box-shadow: 0px 0px 3px black;
+}
+.admin_profile_changepassword_changepart{
+  padding: 10px;
+  margin: 30px 0px;
+  box-shadow: 0px 0px 3px black;
+}
+
+#admin_profile_OldPassword_input , #admin_profile_NewPassword_input , #admin_profile_ConfirmPassword_input{
+  box-shadow: 0px 0px 2px black;
+  width: 25vw;
+  height: 5vh;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 2px;
+}
+#admin_profile_firstname_input , #admin_profile_secondname_input , #admin_profile_emailaddress_input{
+  box-shadow: 0px 0px 2px black;
+  width: 25vw;
+  height: 5vh;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+/* admin-user part */
+
+.admin-user{
+  margin: 20px 20px;
+  box-shadow: 0px 0px 3px black;
+  font-family: "gilroyBold";
+}
+.user-table{
+  overflow-y: scroll;
+  height: 65vh;
+}
+.admin-user-profile-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-user-profile-image img{
+  width: 30px;
+  height: 30px;
+}
+#admin-user-phonenumber-input{
+  padding: 10px;
+  width: 20vw;
+  margin-right: 10px;
+  box-shadow: 0px 0px 2px black;
+}
+.admin-user-profile-details-button button a{
+  text-decoration: none;
+  color: white;
+}
+
+/* admin-vendor part */
+
+.admin-vendor{
+  margin: 20px 20px;
+  box-shadow: 0px 0px 3px black;
+  background-color: #ffffff;
+}
+.vendor-table{
+  height: 65vh;
+  overflow-y: scroll;
+}
+
+.admin-vendor-profile-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-vendor-profile-image img{
+  width: 30px;
+  height: 30px;
+}
+#admin-vendor-phonenumber-input{
+  padding: 10px;
+  width: 20vw;
+  margin-right: 10px;
+  box-shadow: 0px 0px 2px black;
+}
+.admin-vendor-profile-details-button button a{
+  text-decoration: none;
+  color: white;
+}
+
+/* admin-profile-dropdown part */
+
+
+.admin_profile_dropdown{
+  
+  position: absolute;
+  width: 175px;
+  height:100px;
+  top: 3.6rem;
+  right: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px black;
+}
+.admin_profile_dropdown::before{
+  position: absolute;
+  content: '';
+  top: -0.7rem;
+  right: 4.1rem;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  background-color: white;
+}
+.admin_profile_dropdown_name{
+  margin-top: 7px;
+  margin-left: -25px;
+}
+.admin_profile_dropdown_profile div a{
+  text-decoration: none;
+  color: black;
+}
+.admin_profile_dropdown_signout div a {
+  text-decoration: none;
+  color: black;
+}
+.admin_profile_dropdown_profile :hover{
+  color:red;
+}
+.admin_profile_dropdown_signout :hover{
+  color: red;
+}
+.admin_profile_dropdown ul{
+  flex-direction: column;
+}
+
+
+/* admin-verifcation part */
+
+
+.admin-verification{
+  margin: 20px 20px;
+  box-shadow: 0px 0px 5px black;
+}
+.verification-table{
+  overflow-y: scroll;
+  height: 65vh;
+}
+.admin-verification-profile-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-verification-profile-image img{
+  width: 30px;
+  height: 30px;
+}
+#admin-verification-phonenumber-input{
+  padding: 10px;
+  width: 20vw;
+  margin-right: 10px;
+  box-shadow: 0px 0px 2px black;
+}
+
+
+/* admin-user-details part */
+
+.user_details{
+ background: rgb(243, 241, 241);
+ height:92.6vh;
+}
+.user_details-Personal-info{
+  width: 390px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px black;
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.user_details-Personal-information label{
+  color: gray;
+}
+.user_details-Personal-info-header h5{
+  width: 390px;
+  display: flex;
+  background-color: aqua;
+  padding: 15px 0px;
+}
+.user_details-Personal-info-image-part{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.user_details-Personal-info-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 50%;
+}
+.user_details-Personal-info-image img{
+  width: 60px;
+  height: 60px;
+  contain: content;
+  border-radius: 50%;
+}
+.user_details-contact-details{
+  width: 700px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+  background-color: white;
+}
+.user_details-contact-details-header h5{
+  width: 700px;
+  display: flex;
+  background-color: aqua;
+  padding: 15px 0px;
+}
+.user_details-contact-details{
+  margin-top: -9px;
+}
+.user_details-contact-detail{
+  border-bottom: 1px solid gray;
+  padding: 12px  10px;
+  background-color: white;
+  color: blue;
+  margin: 15px 10px;
+  box-shadow: 0px 0px 2px black;
+}
+
+/* admin-vendor-details part */
+
+.vendor_details{
+  background: rgb(243, 241, 241);
+  height:92.6vh;
+ }
+ .vendor_details-Personal-info{
+   width: 390px;
+   background-color: white;
+   border: 1px solid black;
+   box-shadow: 0px 0px 5px black;
+   padding: 5px 10px;
+   margin-right: 20px;
+   border-radius: 5px;
+ }
+ .vendor_details-Personal-information label{
+   color: gray;
+ }
+ .vendor_details-Personal-info-header h5{
+   width: 390px;
+   display: flex;
+   background-color: aqua;
+   padding: 15px 0px;
+ }
+ .vendor_details-Personal-info-image-part{
+   display: flex;
+   justify-content: center;
+   border-radius: 50%;
+   margin-top: 20px;
+ }
+ .vendor_details-Personal-info-image{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 70px;
+   height: 70px;
+   box-shadow: 0px 0px 5px black;
+   border-radius: 50%;
+ }
+ .vendor_details-Personal-info-image img{
+   width: 60px;
+   height: 60px;
+ }
+ .vendor_details-contact-details{
+   width: 700px;
+   border: 1px solid black;
+   box-shadow: 0px 0px 5px black;
+   border-radius: 5px;
+   background-color: white;
+ }
+ .vendor_details-contact-details-header h5{
+   width: 700px;
+   display: flex;
+   background-color: aqua;
+   padding: 15px 0px;
+ }
+ .vendor_details-contact-details{
+   margin-top: -9px;
+ }
+ .vendor_details-contact-detail{
+   border-bottom: 1px solid gray;
+   padding: 12px  10px;
+   background-color: white;
+   color: blue;
+   margin: 10px 10px;
+   box-shadow: 0px 0px 2px black;
+ }
+
+
+/* admin-contact part */
+
+
+.Admin_contact_details{
+  margin: 20px 20px;
+  box-shadow: 0px 0px 3px black;
+}
+.contact-table{
+  height: 65vh;
+  overflow-y: scroll;
+}
+#admin-contact-phonenumber-input{
+  padding: 10px;
+  width: 20vw;
+  margin-right: 10px;
+  box-shadow: 0px 0px 2px black;
+}
+.admin-contact-profile-details-button button a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* admin-vendor-vehicle-details part */
+
+.vehicle_details{
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px black;
+  background-color: white;
+}
+.vendor_vehicles_part a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* admin-vendor-vehicle_info part */
+
+
+.Admin_vendor_vehicle_info{
+  margin: 20px;
+}
+.Admin_vendor_vehicle_info_part{
+  overflow-y: scroll;
+  max-height: 92.6vh;
+}
+.Admin_vendor_vehicle_info_heading{
+  box-shadow: 0px 0px 5px black;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.Admin_vendor_vehicle_info_details_part{
+  box-shadow: 0px 0px 5px black;
+  padding: 10px 5px;
+}
+.Admin_vendor_vehicle_info_details{
+  border-bottom: 1px solid gray;
+  padding: 10px 5px;
+}
+.Admin_vendor_vehicle_info_image_block{
+  margin: 10px 0px;
+}
+.Admin_vendor_vehicle_info_image1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 410px;
+  height: 350px;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  margin: 15px;
+}
+.Admin_vendor_vehicle_info_image1 img{
+  width: 380px;
+  height: 290px;
+  border-radius: 5px;
+}
